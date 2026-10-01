@@ -7,6 +7,8 @@ API_KEY = os.getenv("API_KEY")
 CITY = "Paris"
 URL = "https://api.weatherapi.com/v1/current.json"
 
+COMMAND = "docker pull illyaivanov/weather"
+
 
 def get_weather() -> dict:
     params = {
